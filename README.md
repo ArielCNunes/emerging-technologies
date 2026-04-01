@@ -1,6 +1,6 @@
 # Emerging Technologies
 
-Assessments focused on quantum computing, exploring the Deutsch–Jozsa algorithm through a series of progressive problems implemented in Python and Qiskit.
+Assessments focused on quantum computing, exploring the [Deutsch–Jozsa algorithm](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm) through a series of progressive problems implemented in [Python](https://www.python.org/) and [Qiskit](https://www.ibm.com/quantum/qiskit).
 
 ## Contents
 
@@ -9,9 +9,9 @@ The notebook `problems.ipynb` will cover five problems:
 | Problem | Title | Description |
 |---------|-------|-------------|
 | 1 | Generating Random Boolean Functions | Implements `random_constant_balanced()`, a test data generator that returns a randomly chosen constant or balanced Boolean function over four inputs |
-| 2 | Classical Testing for Function Type | Implements a classical algorithm to determine whether a function is constant or balanced, with an optimised version using the pigeonhole principle (worst case: 9 function calls) |
+| 2 | Classical Testing for Function Type | Implements a classical algorithm to determine whether a function is constant or balanced, with an optimised version using the [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) (worst case: 9 function calls) |
 | 3 | Quantum Oracles | Builds the four single-input quantum oracles (f₀–f₃) using X and CX gates, verifies their circuit diagrams, and simulates their behaviour on all input states |
-| 4 | Deutsch's Algorithm with Qiskit | N/A |
+| 4 | [Deutsch's Algorithm](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm#Deutsch's_algorithm) with Qiskit | N/A |
 | 5 | Scaling to the Deutsch–Jozsa Algorithm | N/A |
 
 ## Requirements
@@ -24,10 +24,10 @@ pip install -r requirements.txt
 
 Key packages:
 
-- `qiskit[visualization]` — quantum circuit construction and transpilation
-- `qiskit-aer` — local quantum circuit simulator
-- `jupyterlab` / `notebook` — notebook environment
-- `matplotlib` — circuit diagram rendering
+- [`qiskit[visualization]`](https://docs.quantum.ibm.com/) — quantum circuit construction and transpilation
+- [`qiskit-aer`](https://qiskit.github.io/qiskit-aer/) - local quantum circuit simulator
+- [`jupyterlab`](https://jupyterlab.readthedocs.io/) / [`notebook`](https://jupyter-notebook.readthedocs.io/) — notebook environment
+- [`matplotlib`](https://matplotlib.org/) — circuit diagram rendering
 
 ## Running the Notebook
 
