@@ -11,8 +11,8 @@ The notebook `problems.ipynb` will cover five problems:
 | 1 | Generating Random Boolean Functions | Implements `random_constant_balanced()`, a test data generator that returns a randomly chosen constant or balanced Boolean function over four inputs |
 | 2 | Classical Testing for Function Type | Implements a classical algorithm to determine whether a function is constant or balanced, with an optimised version using the [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) (worst case: 9 function calls) |
 | 3 | Quantum Oracles | Builds the four single-input quantum oracles (f₀–f₃) using X and CX gates, verifies their circuit diagrams, and simulates their behaviour on all input states |
-| 4 | [Deutsch's Algorithm](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm#Deutsch's_algorithm) with Qiskit | N/A |
-| 5 | Scaling to the Deutsch–Jozsa Algorithm | N/A |
+| 4 | [Deutsch's Algorithm](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm#Deutsch's_algorithm) with Qiskit | Implements Deutsch's algorithm in Qiskit using the Problem 3 oracles, explains phase kickback, and verifies constant vs balanced classification with one oracle query |
+| 5 | Scaling to the Deutsch–Jozsa Algorithm | Extends to a 4-input Deutsch-Jozsa implementation by building a 5-qubit oracle with MCX gates, constructing the full circuit, and validating outcomes on simulation |
 
 ## Requirements
 
