@@ -16,6 +16,8 @@ The notebook `problems.ipynb` will cover five problems:
 
 ## Requirements
 
+This notebook was tested on **Python 3.12.1**.
+
 Install dependencies with:
 
 ```bash
@@ -47,4 +49,4 @@ jupyter notebook problems.ipynb
 
 Open `problems.ipynb` in VS Code with the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) installed, select a Python kernel, and run all cells with **Run All**.
 
-> Cells must be run in order from top to bottom, as later cells depend on functions defined in earlier ones.
+Cells must be run in order from top to bottom, as later cells depend on functions defined in earlier ones.
